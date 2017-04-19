@@ -1,7 +1,5 @@
 package folder;
 
-import java.util.InputMismatchException;
-
 public class Calculate {
     public static double div(double a, double b) {
         if (b == 0) {

@@ -1,8 +1,6 @@
 import java.util.Scanner;
 import java.lang.*;
-import java.io.*;
 import folder.Calculate;
-import java.lang.Exception;
 import java.util.InputMismatchException;
 
 public class Main {
