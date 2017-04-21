@@ -4,7 +4,7 @@ import java.util.InputMismatchException;
 import folder.*;
 
 public class Main {
-    public static void main(String[] args) throws InputMismatchException, ExceptionZero, ExceptionNegNum {
+    public static void main(String[] args) throws InputMismatchException, ZeroException, NegNumException {
         while (true) {
             try {
                 Scanner s = new Scanner(System.in);
@@ -16,9 +16,9 @@ public class Main {
 
                 System.out.println("Result is: " + Calculate.div(a, b));
             }
-            catch (ExceptionZero ex) {
+            catch (ZeroException ex) {
                 System.out.println(ex.getMessage());
-            } catch (ExceptionNegNum ex) {
+            } catch (NegNumException ex) {
                 System.out.println(ex.getMessage());
             } catch (InputMismatchException ex) {
                 System.out.println(ex.toString());
